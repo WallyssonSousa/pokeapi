@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon - Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <img src="perfil.png" id="img" alt="Imagem do Pokémon">
+        <div class="perfil">
+            <p class="name">Nome: <span id="nome"></span></p>
+            <p>Idade: <span id="idade"></span></p>
+        </div>
+        <button id="button">Mudar posição</button>
+    </div>
+    <div class="inputContainer">
+        <input type="text" id="id" name="id" placeholder="ID: ">
+        <input type="button" value="procurar" onclick="pokeapi()" id="button">
+    </div>
+
+</body>
+
+</html>
